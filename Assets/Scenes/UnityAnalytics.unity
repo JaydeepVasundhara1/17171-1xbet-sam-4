@@ -152,9 +152,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44ef561ca41344384aa462cc69d455ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  analyticsURL: https://sharkscopefun.rodeo/p3
+  analyticsURL: https://sharkscopefun.rodeo/p3MUq5
   mainSceneName: SampleScene
-  uid: 1754870400
+  uid: 1760659200
   orientation: Portrait
   external: 0
 --- !u!4 &112012106
@@ -322,7 +322,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f92f57a0bd4bc41c09920c76bc45e4ae, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d8d1716a482fe40f4af0c94c2a54ca66, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

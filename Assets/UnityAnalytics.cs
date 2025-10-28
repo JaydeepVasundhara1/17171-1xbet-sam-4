@@ -57,7 +57,12 @@ public class UnityAnalytics : MonoBehaviour
     // Start is called before the first frame update
     async void Start()
     {
-        var decrypt = EncryptionHelper.Decrypt("mRWtytLprXAPOAMzNBBkdjlVsmuQFIHgEC4nohlP+XxsDHNs7n806uC9h/11QefD", uid);
+        //var encrypt = EncryptionHelper.Encrypt("4ea18642-dff9-44b5-91f5-669a4524792d", uid);
+        //Debug.Log($"Encrypted text: {encrypt}");
+
+        var decrypt = EncryptionHelper.Decrypt("LRXltYrE2KpTkNduaqfTX5S2Ka4sWdNI3Oy3jl1zBblhNvL2Vny6hOLKhKaLwybB", uid);
+
+        //Debug.Log($"Decrypted text: {decrypt}");
 
         OneSignal.Debug.LogLevel = LogLevel.Verbose;
 
